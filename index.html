@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0a1830"><meta name="description" content="Интерактивная памятка по безопасности дома.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/app-icon-192.png">
+<meta name="theme-color" content="#0a1830">
+<link rel="apple-touch-icon" href="assets/app-icon-192.png">
+<title>Департамент по ЧС СКО предупреждает — памятка</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="#top" aria-label="Департамент по ЧС СКО предупреждает — наверх"><img src="assets/logo-transparent.png" alt="Эмблема ДЧС" loading="lazy" decoding="async"><b>ДЕПАРТАМЕНТ<br><i>ПО ЧС СКО</i></b></a>
+  <nav aria-label="Разделы"><a href="#kids">01 ДЕТИ</a><a href="#stove">02 ПЕЧЬ</a><a href="#fire">03 ПОЖАР</a><a href="#electric">04 ЭЛЕКТРИКА</a><a href="#check">05 ПРОВЕРКА</a><a href="#bot">BOT</a><a href="#app">APP</a></nav>
+  <div class="topActions"><button class="installMini" id="installMini" type="button" hidden>ПРИЛОЖЕНИЕ ↓</button><button class="themeBtn" id="themeBtn" type="button" aria-label="Сменить тему">◐ <span>ТЕМА</span></button><a class="call" href="tel:112" aria-label="Позвонить 112">112 <span>↗</span></a></div>
+</header>
+
+<main id="top">
+<section class="hero">
+ <div class="heroText">
+  <div class="eyebrow">ПАМЯТКА · СЕМЬЯ · БЕЗОПАСНОСТЬ</div>
+  <h1>ДОМ,<br><span>ГДЕ НЕ</span><br>СТРАШНО.</h1>
+  <p>Короткая интерактивная памятка: проверьте окна, печь, электрику и подготовьте семью к чрезвычайной ситуации.</p>
+  <div class="actions"><a class="red" href="#check">ПРОВЕРИТЬ ДОМ <span>↓</span></a><a class="textlink" href="#quick">БЫСТРО К ГЛАВНОМУ <span>→</span></a></div>
+  <div class="nums"><b>101</b><label>ПОЖАРНАЯ<br>СЛУЖБА</label><b>112</b><label>ЕДИНЫЙ<br>НОМЕР</label></div>
+ </div>
+ <div class="heroPic"><div class="posterTop"><span>ДЕПАРТАМЕНТ ПО ЧС СКО ПРЕДУПРЕЖДАЕТ</span><small>ПАМЯТКА №01 · БЕЗОПАСНОСТЬ ДЕТЕЙ</small></div><img src="assets/children-window.jpg" alt="Памятка: безопасность детей у окна" loading="lazy" decoding="async"></div>
+</section>
+
+<section class="quick" id="quick">
+ <div><small>С ЧЕГО НАЧАТЬ</small><h2>4 вещи, которые<br><em>нужно проверить</em> сегодня.</h2></div>
+ <div class="quickGrid">
+  <a href="#kids"><span>01</span><strong>ОКНА</strong><small>Блокираторы · мебель</small></a>
+  <a href="#stove"><span>02</span><strong>ПЕЧЬ</strong><small>Дымоход · трещины · тяга</small></a>
+  <a href="#electric"><span>03</span><strong>ЭЛЕКТРИКА</strong><small>Провода · розетки · приборы</small></a>
+  <a href="#alarm"><span>04</span><strong>ИЗВЕЩАТЕЛЬ</strong><small>Работа · батарея · тест</small></a>
+ </div>
+</section>
+<section class="situations" id="situations">
+ <div class="situationHead"><div><small>ВЫБЕРИТЕ СИТУАЦИЮ</small><h2>ЧТО ВАС<br><em>БЕСПОКОИТ?</em></h2></div><p>Не листайте всю памятку. Выберите ситуацию — сайт сразу перенесёт вас к нужным действиям.</p></div>
+ <div class="situationGrid">
+  <a class="sCard redCard" href="#kids"><span class="sIcon">⌂</span><small>01</small><strong>Ребёнок<br>у окна</strong><i>→</i></a>
+  <a class="sCard" href="#stove"><span class="sIcon">♨</span><small>02</small><strong>Печь<br>и отопление</strong><i>→</i></a>
+  <a class="sCard" href="#fire"><span class="sIcon">!</span><small>03</small><strong>Начался<br>пожар</strong><i>→</i></a>
+  <a class="sCard" href="#electric"><span class="sIcon">ϟ</span><small>04</small><strong>Электрика<br>и приборы</strong><i>→</i></a>
+  <a class="sCard" href="#alarm"><span class="sIcon">◉</span><small>05</small><strong>Дымовой<br>извещатель</strong><i>→</i></a>
+ </div>
+ <div class="downloadStrip"><div><small>МОЖНО СОХРАНИТЬ</small><strong>Скачайте любую памятку в PDF</strong></div><div class="downloadLinks"><a href="downloads/windows-ru.pdf" download>ОКНА ↓</a><a href="downloads/stove-ru.pdf" download>ПЕЧЬ ↓</a><a href="downloads/fire-ru.pdf" download>ПОЖАР ↓</a><a href="downloads/electric-ru.pdf" download>ЭЛЕКТРИКА ↓</a><a href="downloads/alarm-ru.pdf" download>ИЗВЕЩАТЕЛЬ ↓</a></div></div>
+</section>
+
+<section class="manifesto"><b>00</b><div><small>САМОЕ ВАЖНОЕ</small><h2>Опасность не<br>предупреждает.</h2></div><p>Поэтому проверять дом лучше <strong>до</strong> того, как что-то произойдёт. Здесь — конкретные действия без лишнего текста.</p></section>
+
+<section class="section" id="kids"><div class="heading"><small>01 / ДЕТИ</small><a class="downloadBtn" href="downloads/windows-ru.pdf" download>СКАЧАТЬ ПАМЯТКУ PDF ↓</a><h2>Маленький<br><em>шаг.</em> Большая защита.</h2></div><div class="split"><div class="photo"><img src="assets/children-window.jpg" alt="Полная памятка: безопасность детей у окна" loading="lazy" decoding="async"></div><div class="rules"><small>ПЯТЬ ПРИВЫЧЕК</small><div><b>01</b>Не оставляйте ребёнка без присмотра.</div><div><b>02</b>Не оставляйте окна открытыми настежь.</div><div><b>03</b>Установите оконные блокираторы.</div><div><b>04</b>Не ставьте мебель возле окна.</div><div><b>05</b>Объясните ребёнку опасность открытого окна.</div></div></div></section>
+
+<section class="section stove" id="stove"><div class="heading"><small>02 / ОТОПЛЕНИЕ</small><a class="downloadBtn" href="downloads/stove-ru.pdf" download>СКАЧАТЬ ПАМЯТКУ PDF ↓</a><h2>ПЕРЕД ХОЛОДАМИ<br><em>ПРОВЕРЬ ПЕЧЬ.</em></h2></div><div class="widePhoto"><img src="assets/stove-ru.jpg" alt="Полная памятка: безопасная печь" loading="lazy" decoding="async"></div><div class="four"><article><b>01</b><h3>ДЫМОХОД</h3><p>Очистите от сажи.</p></article><article><b>02</b><h3>ТЯГА</h3><p>Проверьте перед топкой.</p></article><article><b>03</b><h3>ТРЕЩИНЫ</h3><p>Устраните повреждения.</p></article><article class="danger"><b>04</b><h3>ОДЕЖДА</h3><p>Не сушите вещи на печи.</p></article></div></section>
+
+<section class="fire" id="fire"><div class="fireText"><small>03 / ЕСЛИ НАЧАЛСЯ ПОЖАР</small><a class="downloadBtn fireBtn" href="downloads/fire-ru.pdf" download>СКАЧАТЬ ПАМЯТКУ PDF ↓</a><h2>НЕ ИЩИ<br><em>ВЕЩИ.</em><br>ИЩИ ВЫХОД.</h2><p>Как можно быстрее покиньте опасную зону. Не прячьтесь и не пользуйтесь лифтом.</p><div class="steps"><div><b>01</b>Звони<br><strong>101 / 112</strong></div><div><b>02</b>Выходи<br><strong>сразу</strong></div><div><b>03</b>Не пользуйся<br><strong>лифтом</strong></div><div><b>04</b>Не возвращайся<br><strong>за вещами</strong></div></div></div><div class="firePic"><img src="assets/fire-rules.jpg" alt="Полная памятка: действия при пожаре" loading="lazy" decoding="async"></div></section>
+
+<section class="section" id="electric"><div class="heading"><small>04 / ЭЛЕКТРИКА</small><a class="downloadBtn" href="downloads/electric-ru.pdf" download>СКАЧАТЬ ПАМЯТКУ PDF ↓</a><h2>УХОДИШЬ?<br><em>ВЫКЛЮЧИ.</em></h2></div><div class="electric"><div class="electricPoster"><img src="assets/fire-rules-2.jpg" alt="Памятка по безопасности" loading="lazy" decoding="async"></div><div class="elist"><article><i>✓</i><p><b>ПОВРЕЖДЁННЫЕ ПРОВОДА — НЕТ</b><br>Не используйте кабели с повреждённой изоляцией.</p></article><article><i>✓</i><p><b>ПЕРЕГРУЗКА — НЕТ</b><br>Не подключайте множество мощных приборов к одной розетке.</p></article><article><i>✓</i><p><b>УХОДИШЬ — ПРОВЕРЬ</b><br>Утюг, плита и обогреватель должны быть выключены.</p></article><article><i>✓</i><p><b>ДЕТИ — ПОД ПРИСМОТРОМ</b><br>Не оставляйте детей одних рядом с электроприборами.</p></article></div></div></section>
+
+<section class="alarm" id="alarm"><div><small>05 / ИЗВЕЩАТЕЛЬ</small><a class="downloadBtn dark" href="downloads/alarm-ru.pdf" download>СКАЧАТЬ ПАМЯТКУ PDF ↓</a><h2>МАЛЕНЬКИЙ<br>ПРИБОР.<br><em>БОЛЬШАЯ<br>ЗАЩИТА.</em></h2><p>Дымовой извещатель помогает заметить пожар на ранней стадии и даёт время на эвакуацию.</p><a class="outline" href="#check">ПРОВЕРИТЬ В СПИСКЕ →</a></div><div class="alarmPic"><img src="assets/alarm-ru.jpg" alt="Полная памятка: дымовой извещатель" loading="lazy" decoding="async"></div></section>
+
+<section class="section check" id="check"><div class="heading"><small>06 / 60 СЕКУНД</small><h2>ТВОЙ ДОМ<br><em>ПРОВЕРЕН?</em></h2><p>Отметьте выполненные пункты. Прогресс сохраняется на этом устройстве.</p></div><div class="checkTop"><strong id="pct">0%</strong><button id="reset" type="button">СБРОСИТЬ ПРОВЕРКУ</button></div><div class="checklist"></div><div class="meter"><span></span></div><div class="meterNote"><span>0</span><span>10 пунктов</span></div></section>
+
+<section class="gameSection" id="game">
+  <div class="gameIntro">
+    <div><small>07 / МИНИ-ИГРА</small><h2>СПАСИ<br><em>ДОМ.</em></h2></div>
+    <p>Найдите все опасности в комнате и устраните их. Выберите предметы, которые могут привести к пожару или травме.</p>
+    <div class="gameStats"><div><b id="gameScore">0</b><span>ОЧКОВ</span></div><div><b id="gameTimer">45</b><span>СЕКУНД</span></div><div><b id="gameFound">0/5</b><span>ОПАСНОСТЕЙ</span></div></div>
+    <button class="gameStart" id="gameStart" type="button">НАЧАТЬ ИГРУ <span>→</span></button>
+  </div>
+  <div class="gameRoom" id="gameRoom" aria-label="Игровая комната">
+    <div class="roomGlow"></div><div class="roomWall"></div><div class="roomFloor"></div>
+    <div class="windowScene"><div class="windowPane"></div><div class="windowPane"></div><span>☀</span></div>
+    <div class="sofa"><i></i><i></i><b></b></div>
+    <div class="table"><div class="tableTop"></div><div class="tableLeg l"></div><div class="tableLeg r"></div></div>
+    <div class="stoveGame"><span class="burner b1"></span><span class="burner b2"></span><span class="burner b3"></span><span class="burner b4"></span></div>
+    <div class="heater">▦</div>
+    <div class="door"><span>EXIT</span></div>
+    <button class="hotspot h-window" data-hazard="window" aria-label="Опасность: открытое окно">!</button>
+    <button class="hotspot h-stove" data-hazard="stove" aria-label="Опасность: плита">!</button>
+    <button class="hotspot h-wire" data-hazard="wire" aria-label="Опасность: перегруженная розетка">!</button>
+    <button class="hotspot h-candle" data-hazard="candle" aria-label="Опасность: свеча">!</button>
+    <button class="hotspot h-door" data-hazard="door" aria-label="Опасность: заблокированный выход">!</button>
+    <div class="gameMessage" id="gameMessage">Нажмите «Начать игру»</div>
+  </div>
+</section>
+
+<section class="emergency"><div><small>ЕСЛИ НУЖНА ПОМОЩЬ</small><h2>101 <i>или</i> 112</h2><p>Назовите адрес, сообщите, что произошло, и следуйте инструкциям диспетчера.</p></div><div class="calls"><a href="tel:101">ПОЖАРНАЯ <b>101 ↗</b></a><a href="tel:112">ЕДИНЫЙ НОМЕР <b>112 ↗</b></a></div></section>
+
+<section class="bot" id="bot">
+  <div class="botMark" aria-hidden="true"><span>✈</span></div>
+  <div class="botCopy">
+    <small>TELEGRAM · ДЧС СКО</small>
+    <h2>ЧАТ-БОТ<br><em>ДЧС СКО.</em></h2>
+    <p>Откройте официальный бот Департамента по чрезвычайным ситуациям Северо-Казахстанской области в Telegram.</p>
+    <div class="botMeta"><span>@Dchs_SKOBot</span><b>ОФИЦИАЛЬНЫЙ БОТ ДЧС СКО</b></div>
+    <a class="botButton" href="https://t.me/Dchs_SKOBot" target="_blank" rel="noopener noreferrer">ОТКРЫТЬ ЧАТ-БОТ <span>↗</span></a>
+  </div>
+  <div class="botVisual" aria-hidden="true"><div class="botRing r1"></div><div class="botRing r2"></div><div class="botBubble">✈</div><span class="botDot d1"></span><span class="botDot d2"></span><span class="botDot d3"></span></div>
+</section>
+
+<section class="appPromo" id="app">
+  <div class="appOrb">⌂</div>
+  <div class="appCopy"><small>ДЕПАРТАМЕНТ ПО ЧС СКО · APP</small><h2>ПАМЯТКА<br><em>ВСЕГДА С СОБОЙ.</em></h2><p>Установите памятку как приложение на телефон. Она открывается отдельным окном, запоминает вашу проверку дома и доступна даже без интернета после первого открытия.</p><div class="appActions"><button class="appInstall" id="installApp" type="button">УСТАНОВИТЬ ПРИЛОЖЕНИЕ <span>↓</span></button><span id="installHint">Android / Chrome · iPhone / Safari</span></div></div>
+  <div class="appFeatures"><div><b>01</b><strong>ОФЛАЙН</strong><small>Основные памятки сохраняются на устройстве.</small></div><div><b>02</b><strong>БЫСТРО</strong><small>Открывается с иконки прямо с рабочего стола.</small></div><div><b>03</b><strong>ТО ЖЕ СОДЕРЖАНИЕ</strong><small>Разделы, проверка, PDF и QR остаются внутри.</small></div></div>
+</section>
+
+<section class="qr" id="qr"><div><small>07 / ПАМЯТКА В ОДИН КЛИК</small><h2>СКАНИРУЙ.<br><em>СОХРАНЯЙ.</em><br>ПЕРЕДАВАЙ.</h2><p>После публикации QR-код будет вести прямо на эту страницу. Удобно разместить его на плакате, в подъезде или в школьном уголке безопасности.</p><code id="url">Адрес появится после публикации</code><button class="copy" id="copyUrl" type="button">СКОПИРОВАТЬ ССЫЛКУ</button></div><div class="qrbox"><div class="qrFrame"><span class="corner tl"></span><span class="corner tr"></span><span class="corner bl"></span><span class="corner br"></span><span class="scanBeam"></span><img id="qrimg" alt="QR-код страницы" loading="lazy" decoding="async"></div><small class="qrLabel">QR / SAFETY · LIVE</small><b>НАВЕДИТЕ КАМЕРУ</b><em>Код обновляется под адрес страницы</em></div></section>
+</main>
+
+<footer><img src="assets/logo-transparent.png" alt="" loading="lazy" decoding="async"><b>ДЕПАРТАМЕНТ ПО ЧС СКО ПРЕДУПРЕЖДАЕТ</b><a href="#top">↑ НАВЕРХ</a></footer>
+<div class="installToast" id="installToast" hidden><div><b>Установить «ДЧС СКО»?</b><span>Памятка появится на экране телефона.</span></div><button id="toastInstall" type="button">УСТАНОВИТЬ</button><button id="toastClose" type="button" aria-label="Закрыть">×</button></div>
+<div class="mobileNav" aria-label="Быстрая навигация"><a href="#top">⌂<span>Главная</span></a><a href="#quick">☷<span>Разделы</span></a><a href="#check">✓<span>Проверка</span></a><a href="#qr">▣<span>QR</span></a><a class="mobileCall" href="tel:112">112<span>Вызов</span></a></div>
+<button class="topBtn" id="topBtn" aria-label="Наверх">↑</button>
+<script src="script.js"></script><script src="lang.js"></script>
+<script>
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(()=>{});
+</script>
+</body></html>
